@@ -29,6 +29,8 @@ public class Solution {
      * @return Your resulting vector.
      */
     public ArrayList<Integer> outputVector() {
+    	
+    	//method goes here
 
         return new ArrayList<Integer>();
     }
