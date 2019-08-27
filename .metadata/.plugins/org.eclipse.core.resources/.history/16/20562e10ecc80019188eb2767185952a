@@ -31,7 +31,6 @@ public class Solution {
     public ArrayList<Integer> outputVector() {
     	
     	//method goes here
-    	System.out.println("this is the begining");
 
         return new ArrayList<Integer>();
     }
