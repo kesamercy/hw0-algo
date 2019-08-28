@@ -30,6 +30,43 @@ public class Solution {
      */
     public ArrayList<Integer> outputVector() {
     	
+    	//determine the U matrix using the size of the vector
+    	
+    	//get the matrix
+    	
+    	//multiply the matrix by the vector
+    	
+    	
+    	//have the output 
+    	
+    	//if you have the size of the input vector, then you have the size of the matrix since it is a sturctured 
+    	//matrix
+    	
+    	//create a varauble for a structured matrix and then use the size of n for the size of the matrix
+    	
+    	//multiply the matrix by the input vector and then find the result and give it to another vector
+    	
+    	//the size of the output vector is going to be the size of the input vector
+    	
+    	//call the solution class updates the in vector 
+    	
+    	
+    	//going to need the matrix
+    	
+    	//going to need the vector...
+    	 
+    	//how do we get the vector?????????
+    	
+    	//the input from solution is what the vector is .... so we have the input for the vectoty 
+    	
+    	
+    	
+    	//go through each row of the matrix
+    	
+    	//for each element, multiply it to the element in the vector 
+    	
+    	//at the end of each row, populate the output vector with the value from the sum of the first row 
+    	
     	//method goes here
     	System.out.println("this is the begining");
 
