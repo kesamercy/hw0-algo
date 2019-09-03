@@ -29,47 +29,28 @@ public class Solution {
      * @return Your resulting vector.
      */
     public ArrayList<Integer> outputVector() {
+    	int sizeOfVector = in_vector.size();
+    	int valueInOutPutVector = 0;
+    	int numElementsExcludedInFindingOutPutVectorElement = 0;
+    	int lastElementInInputVector = sizeOfVector - 1;
     	
-    	//determine the U matrix using the size of the vector
+    	ArrayList<Integer> outputArraylist = new ArrayList<Integer>();
     	
-    	//get the matrix
+    	for (int i = 0; i < sizeOfVector; i++) {
+    		valueInOutPutVector += in_vector.get(i);
+   		
+    		if (i == lastElementInInputVector) {
+    			outputArraylist.add(valueInOutPutVector);
+    			++numElementsExcludedInFindingOutPutVectorElement;
+    			i = numElementsExcludedInFindingOutPutVectorElement;
+    			--i; //decrement i to prevent double increment when it goes to the for loop
+    			valueInOutPutVector = 0;
+			}
+    		
+		}
     	
-    	//multiply the matrix by the vector
-    	
-    	
-    	//have the output 
-    	
-    	//if you have the size of the input vector, then you have the size of the matrix since it is a sturctured 
-    	//matrix
-    	
-    	//create a varauble for a structured matrix and then use the size of n for the size of the matrix
-    	
-    	//multiply the matrix by the input vector and then find the result and give it to another vector
-    	
-    	//the size of the output vector is going to be the size of the input vector
-    	
-    	//call the solution class updates the in vector 
-    	
-    	
-    	//going to need the matrix
-    	
-    	//going to need the vector...
-    	 
-    	//how do we get the vector?????????
-    	
-    	//the input from solution is what the vector is .... so we have the input for the vectoty 
-    	
-    	
-    	
-    	//go through each row of the matrix
-    	
-    	//for each element, multiply it to the element in the vector 
-    	
-    	//at the end of each row, populate the output vector with the value from the sum of the first row 
-    	
-    	//method goes here
-    	System.out.println("this is the begining");
-
-        return new ArrayList<Integer>();
+        return outputArraylist;
     }
+    
+
 }

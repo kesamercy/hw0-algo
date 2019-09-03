@@ -16,7 +16,6 @@ public class Driver {
         inputFilename = args[0];
         
         ArrayList<Integer> input = new HW0Utility().readFile(inputFilename);
-
         
         Solution student = new Solution(input);
         ArrayList<Integer> studentSolution = student.outputVector();
